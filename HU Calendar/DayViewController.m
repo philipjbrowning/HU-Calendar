@@ -61,6 +61,13 @@
     [_RSSEntryDescriptionLabel setText:[newEntry entryDescription]];
     [_RSSEntryLinkLabel setText:[newEntry entryLink]];
     [_RSSEntryTitleLabel setText:[newEntry entryTitle]];
+    
+    UITableViewCell *newCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
+    [[newCell textLabel] setText:newTitle];
+    [[newCell detailTextLabel] setText:newTitle];
+    
+    [_RSSNewsTableView insertSubview:newCell atIndex:0];
+    
 }
 
 - (void)didReceiveMemoryWarning

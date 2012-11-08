@@ -15,6 +15,7 @@
     IBOutlet UILabel *_RSSEntryDescriptionLabel;
     IBOutlet UILabel *_RSSEntryLinkLabel;
     IBOutlet UILabel *_RSSEntryTitleLabel;
+    IBOutlet UITableView *_RSSNewsTableView;
 }
 
 @end
