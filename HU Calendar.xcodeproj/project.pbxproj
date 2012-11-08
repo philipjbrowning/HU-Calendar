@@ -18,6 +18,12 @@
 		4A927528164B316900972820 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A927527164B316900972820 /* Default.png */; };
 		4A92752A164B317100972820 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A927529164B317100972820 /* Default@2x.png */; };
 		4A92752C164B317700972820 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A92752B164B317700972820 /* Default-568h@2x.png */; };
+		4A927537164B32B500972820 /* DailyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A92752E164B32B500972820 /* DailyTableViewController.m */; };
+		4A927538164B32B500972820 /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A927530164B32B500972820 /* DayViewController.m */; };
+		4A927539164B32B500972820 /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A927531164B32B500972820 /* DayViewController.xib */; };
+		4A92753A164B32B500972820 /* MonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A927533164B32B500972820 /* MonthViewController.m */; };
+		4A92753B164B32B500972820 /* MonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A927534164B32B500972820 /* MonthViewController.xib */; };
+		4A92753C164B32B500972820 /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A927536164B32B500972820 /* RSSEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,16 @@
 		4A927527164B316900972820 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		4A927529164B317100972820 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		4A92752B164B317700972820 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A92752D164B32B500972820 /* DailyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyTableViewController.h; sourceTree = "<group>"; };
+		4A92752E164B32B500972820 /* DailyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyTableViewController.m; sourceTree = "<group>"; };
+		4A92752F164B32B500972820 /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		4A927530164B32B500972820 /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		4A927531164B32B500972820 /* DayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayViewController.xib; sourceTree = "<group>"; };
+		4A927532164B32B500972820 /* MonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthViewController.h; sourceTree = "<group>"; };
+		4A927533164B32B500972820 /* MonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthViewController.m; sourceTree = "<group>"; };
+		4A927534164B32B500972820 /* MonthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthViewController.xib; sourceTree = "<group>"; };
+		4A927535164B32B500972820 /* RSSEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSEntry.h; sourceTree = "<group>"; };
+		4A927536164B32B500972820 /* RSSEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,16 @@
 			children = (
 				4A927515164B2DED00972820 /* HUCalendarAppDelegate.h */,
 				4A927516164B2DEE00972820 /* HUCalendarAppDelegate.m */,
+				4A92752D164B32B500972820 /* DailyTableViewController.h */,
+				4A92752E164B32B500972820 /* DailyTableViewController.m */,
+				4A92752F164B32B500972820 /* DayViewController.h */,
+				4A927530164B32B500972820 /* DayViewController.m */,
+				4A927531164B32B500972820 /* DayViewController.xib */,
+				4A927532164B32B500972820 /* MonthViewController.h */,
+				4A927533164B32B500972820 /* MonthViewController.m */,
+				4A927534164B32B500972820 /* MonthViewController.xib */,
+				4A927535164B32B500972820 /* RSSEntry.h */,
+				4A927536164B32B500972820 /* RSSEntry.m */,
 				4A92750D164B2DED00972820 /* Supporting Files */,
 			);
 			path = "HU Calendar";
@@ -163,6 +189,8 @@
 				4A927528164B316900972820 /* Default.png in Resources */,
 				4A92752A164B317100972820 /* Default@2x.png in Resources */,
 				4A92752C164B317700972820 /* Default-568h@2x.png in Resources */,
+				4A927539164B32B500972820 /* DayViewController.xib in Resources */,
+				4A92753B164B32B500972820 /* MonthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +203,10 @@
 			files = (
 				4A927513164B2DED00972820 /* main.m in Sources */,
 				4A927517164B2DEE00972820 /* HUCalendarAppDelegate.m in Sources */,
+				4A927537164B32B500972820 /* DailyTableViewController.m in Sources */,
+				4A927538164B32B500972820 /* DayViewController.m in Sources */,
+				4A92753A164B32B500972820 /* MonthViewController.m in Sources */,
+				4A92753C164B32B500972820 /* RSSEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

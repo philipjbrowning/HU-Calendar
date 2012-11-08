@@ -7,13 +7,23 @@
 //
 
 #import "HUCalendarAppDelegate.h"
+#import "DayViewController.h"
+#import "MonthViewController.h"
 
 @implementation HUCalendarAppDelegate
+
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
+    DayViewController *dvc = [[DayViewController alloc] init];
+    MonthViewController *mvc = [[MonthViewController alloc] init];
+    
+    [[self window] setRootViewController:dvc];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
