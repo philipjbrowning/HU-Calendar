@@ -13,9 +13,11 @@
 		4A927511164B2DED00972820 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A92750F164B2DED00972820 /* InfoPlist.strings */; };
 		4A927513164B2DED00972820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A927512164B2DED00972820 /* main.m */; };
 		4A927517164B2DEE00972820 /* HUCalendarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A927516164B2DEE00972820 /* HUCalendarAppDelegate.m */; };
-		4A927519164B2DEE00972820 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A927518164B2DEE00972820 /* Default.png */; };
-		4A92751B164B2DEE00972820 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A92751A164B2DEE00972820 /* Default@2x.png */; };
-		4A92751D164B2DEE00972820 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A92751C164B2DEE00972820 /* Default-568h@2x.png */; };
+		4A927524164B314C00972820 /* App_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A927523164B314C00972820 /* App_Icon.png */; };
+		4A927526164B315200972820 /* App_Icon.png_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A927525164B315200972820 /* App_Icon.png_4.png */; };
+		4A927528164B316900972820 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A927527164B316900972820 /* Default.png */; };
+		4A92752A164B317100972820 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A927529164B317100972820 /* Default@2x.png */; };
+		4A92752C164B317700972820 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A92752B164B317700972820 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +31,11 @@
 		4A927514164B2DED00972820 /* HU Calendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HU Calendar-Prefix.pch"; sourceTree = "<group>"; };
 		4A927515164B2DED00972820 /* HUCalendarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUCalendarAppDelegate.h; sourceTree = "<group>"; };
 		4A927516164B2DEE00972820 /* HUCalendarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUCalendarAppDelegate.m; sourceTree = "<group>"; };
-		4A927518164B2DEE00972820 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4A92751A164B2DEE00972820 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4A92751C164B2DEE00972820 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A927523164B314C00972820 /* App_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = App_Icon.png; path = ../App_Icon.png; sourceTree = "<group>"; };
+		4A927525164B315200972820 /* App_Icon.png_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = App_Icon.png_4.png; path = ../App_Icon.png_4.png; sourceTree = "<group>"; };
+		4A927527164B316900972820 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		4A927529164B317100972820 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		4A92752B164B317700972820 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +96,11 @@
 				4A92750F164B2DED00972820 /* InfoPlist.strings */,
 				4A927512164B2DED00972820 /* main.m */,
 				4A927514164B2DED00972820 /* HU Calendar-Prefix.pch */,
-				4A927518164B2DEE00972820 /* Default.png */,
-				4A92751A164B2DEE00972820 /* Default@2x.png */,
-				4A92751C164B2DEE00972820 /* Default-568h@2x.png */,
+				4A927523164B314C00972820 /* App_Icon.png */,
+				4A927525164B315200972820 /* App_Icon.png_4.png */,
+				4A927527164B316900972820 /* Default.png */,
+				4A927529164B317100972820 /* Default@2x.png */,
+				4A92752B164B317700972820 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,9 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A927511164B2DED00972820 /* InfoPlist.strings in Resources */,
-				4A927519164B2DEE00972820 /* Default.png in Resources */,
-				4A92751B164B2DEE00972820 /* Default@2x.png in Resources */,
-				4A92751D164B2DEE00972820 /* Default-568h@2x.png in Resources */,
+				4A927524164B314C00972820 /* App_Icon.png in Resources */,
+				4A927526164B315200972820 /* App_Icon.png_4.png in Resources */,
+				4A927528164B316900972820 /* Default.png in Resources */,
+				4A92752A164B317100972820 /* Default@2x.png in Resources */,
+				4A92752C164B317700972820 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
